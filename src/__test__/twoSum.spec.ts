@@ -15,7 +15,7 @@ const realTwoSum = (list: number[], target: number) => {
 };
 
 describe("how to create success test property", () => {
-  it("two sum", () => {
+  it("should two sum success", () => {
     fc.assert(
       fc.property(
         // create some number[], the list length / 2 and length / 3 is sum of length * 2
